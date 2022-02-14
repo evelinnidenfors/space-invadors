@@ -1,3 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap");
+
+body {
+  background-color: #223843;
+  color: #eff1f3;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.wrapper p {
+  margin: 0;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  mix-blend-mode: overlay;
+}
+
+h1 {
+  font-family: "Oleo Script Swash Caps", sans-serif;
+  font-weight: 400;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  mix-blend-mode: overlay;
+}
+
 .App {
   text-align: center;
 }
@@ -21,18 +55,4 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
